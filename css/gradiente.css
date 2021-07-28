@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: white;
+    }
+}
+@media screen and (min-width: 768px){
+    body{
+        background-color: whitesmoke;
+    }
+}
+@media screen and (min-width: 1024px){
+    body{
+        background-color: blanchedalmond;
+    }    
+}
+main{
+    background-color: #F0D730;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.color{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+h1, h2, section{
+    padding: 10px;
+    margin: 20px;
+}
+.caja{
+    background-color: rgb(243, 187, 187);
+    width: 1400px;
+    height: 150px;
+    overflow: scroll;
+    border-top: solid rgb(243, 187, 187) 5px;
+    border-left: solid rgb(243, 187, 187)5px;
+    border-bottom: rgb(243, 187, 187) 5px solid;
+    border-right: rgb(243, 187, 187) solid 5px;
+    border-radius: 6px;
+}
+.Formulariodecontacto{
+    background-color: #900000;
+    width: 300px;
+    height: 20px;
+}
+#titulotabla{
+    background-color: #900000;
+}
+.clasificadorClases{
+    display: inline-block
+}
+.Menuuno{
+    list-style-type: none;
+    padding: 0%;
+    width: 90%;
+    margin: 10px auto;
+}
+.Menuuno li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+.Menuuno li a{
+    color: #900000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+.Menuuno li a:hover{
+    background-color: #F0D730;
+    color: #3F3F3B;
+    list-style-type: none;
+    transform: scale(1.1, 1.1);
+}
+.classclass{
+    padding: 1rem;
+    display: grid;
+    flex-direction: row;
+    text-decoration: none;
+    width: 95%;
+    height: 220px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+#ultimoslanzamientos{
+    background: linear-gradient(to top, #900000, #f0d730);
+    padding: 1.5rem;
+    margin: 00.5rem;
+    justify-self: center;
+    align-self: center;
+    height: 150px;
+}
+#masvendidos{
+    background: radial-gradient(#f0d730, #900000);
+    padding: 1.5rem;
+    margin: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    height: 150px;
+}
+#todos{
+    background-color: #900000;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    height: 150px;
+}

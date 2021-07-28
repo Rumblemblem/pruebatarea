@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juegos online para resolver homicidios asesinatos">
+    <meta name="keywords"  content="JUEGO, HOMICIDIO, ONLINE, GAME, MURDER, ASESINATO, CASO, DETECTIVE">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="fotos/favicon.png">
+    <title>Crimenes sin Resolver</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="Menu">
+            <div class="container-fluid">
+                <img class="navbar-brand header__logogrande" src="fotos/logoamarillo.png" alt="logo crimenes sin resolver">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="git.html">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Casos</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#ultimoslanzamientos">¡Últimos lanzamientos!</a>
+                      <a class="dropdown-item" href="#masvendidos">Más vendidos</a>
+                      <a class="dropdown-item" href="#todos">Todos</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Duración y Dificultad de cada juego</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#misterioenelhospicio">Misterio en el Hospicio</a>
+                      <a class="dropdown-item" href="#desaparecidosenserie">Desaparecidos en Serie</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <div class="forms ml-auto">
+                    <a href="login.html" class="btn"><span class="fa fa-user-circle-o"></span>Ingresar</a>
+                    <a href="register.html" class="btn"><span class="fa fa-pencil-square-o"></span>Registrarse</a>
+                </div>
+                </div>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2" type="text" placeholder="Buscar">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>    
+    <section class="banner-bottom py-5">
+        <div class="container py-5">
+            <h3 class="title-wthree mb-lg-5 mb-4 text-center">Juegos a la Venta</h3>
+            <div class="row shop-wthree-info text-center">
+                <div class="col-lg-3 shop-info-grid text-center mt-4">
+                    <div class="product-shoe-info shoe">
+                        <div class="men-thumb-item">
+                            <img src="fotos/misterioenelhospicio.jpeg" class="img-fluid" alt="">
+                        </div>
+                        <div class="item-info-product">
+                            <h4>
+                                <a href="single.html">Misterio en el Hospicio</a>
+                            </h4>
+                        <div class="product_price">
+                            <div class="grid-price">
+                                <span class="money"><span class="line">$18</span> $12</span>
+                            </div>
+                        </div>
+                            <ul class="stars">
+                                <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
+                                <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
+                                <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a></li>
+                                <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a></li>
+                                <li><a href="#"><span class="fa fa-star-o" aria-hidden="true"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section class="newsletter-w3pvt py-5">
+        <div class="container py-md-5">
+            <form method="post" action="#">
+                <p class="text-center">¡Suscribite a nuestro newsletter y enterate antes que nadie la fecha de lanzamiento de los juegos! Además recibirás descuentos exclusivos</p>
+                <div class="row subscribe-sec">
+                    <div class="col-md-9">
+                        <input type="email" class="form-control" id="email" placeholder="Ingresá tú correo electrónico.." name="email" required="">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn submit">Suscribirme</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>   
+    <footer id="footer" class="footer__element">
+        <h5>Página diseñada por Studio Café</h5>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
