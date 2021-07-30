@@ -1,0 +1,498 @@
+Microsoft Windows [Versión 10.0.19042.1083]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\User>cd..
+
+C:\Users>cd..
+
+C:\>cd C:\SEO D'Ambrosio
+
+C:\SEO D'Ambrosio>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 424D-1E06
+
+ Directorio de C:\SEO D'Ambrosio
+
+27/07/2021  16:53    <DIR>          .
+27/07/2021  16:53    <DIR>          ..
+22/07/2021  19:34    <DIR>          css
+22/07/2021  21:02    <DIR>          fotos
+27/07/2021  16:53            10.062 git.html
+22/07/2021  19:34    <DIR>          js
+22/07/2021  19:34    <DIR>          multimedia
+13/07/2021  21:11        30.568.448 node-v14.17.3-x64.msi
+22/07/2021  19:34    <DIR>          node_modules
+15/07/2021  16:35           104.672 package-lock.json
+15/07/2021  17:42               431 package.json
+22/07/2021  19:34    <DIR>          scss
+               4 archivos     30.683.613 bytes
+               8 dirs  147.630.338.048 bytes libres
+
+C:\SEO D'Ambrosio>git init
+Initialized empty Git repository in C:/SEO D'Ambrosio/.git/
+
+C:\SEO D'Ambrosio>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        fotos/
+        git.html
+        js/
+        multimedia/
+        node-v14.17.3-x64.msi
+        node_modules/
+        package-lock.json
+        package.json
+        scss/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\SEO D'Ambrosio>it add git.html
+"it" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\SEO D'Ambrosio>git add git.html
+
+C:\SEO D'Ambrosio>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        fotos/
+        js/
+        multimedia/
+        node-v14.17.3-x64.msi
+        node_modules/
+        package-lock.json
+        package.json
+        scss/
+
+
+C:\SEO D'Ambrosio>git commit -m "subiendo html"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@DESKTOP-54N199V.(none)')
+
+C:\SEO D'Ambrosio>Antonela
+"Antonela" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\SEO D'Ambrosio>git config --global user.email "antonela.dambrosio@gmail.com"
+
+C:\SEO D'Ambrosio>git config --global user.name "Antonela"
+
+C:\SEO D'Ambrosio>git commit -m "subiendo html"
+[master (root-commit) 097a2d0] subiendo html
+ 1 file changed, 171 insertions(+)
+ create mode 100644 git.html
+
+C:\SEO D'Ambrosio>git add git.html
+
+C:\SEO D'Ambrosio>git add register.html
+
+C:\SEO D'Ambrosio>git and single.html
+git: 'and' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\SEO D'Ambrosio>git add single.html
+
+C:\SEO D'Ambrosio>git add tienda.html
+
+C:\SEO D'Ambrosio>git add login.html
+
+C:\SEO D'Ambrosio>git add contacto.html
+
+C:\SEO D'Ambrosio>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   contacto.html
+        modified:   git.html
+        new file:   login.html
+        new file:   register.html
+        new file:   single.html
+        new file:   tienda.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        fotos/
+        js/
+        multimedia/
+        node-v14.17.3-x64.msi
+        node_modules/
+        package-lock.json
+        package.json
+        scss/
+
+
+C:\SEO D'Ambrosio>git add css/
+warning: LF will be replaced by CRLF in css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-grid.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-grid.rtl.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-reboot.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-reboot.rtl.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-utilities.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-utilities.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-utilities.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap-utilities.rtl.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/bootstrap.rtl.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/estilo.css.
+The file will have its original line endings in your working directory
+
+C:\SEO D'Ambrosio>git add fotos/
+
+C:\SEO D'Ambrosio>git add js/
+warning: LF will be replaced by CRLF in js/bootstrap.bundle.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/bootstrap.esm.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/bootstrap.esm.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+
+C:\SEO D'Ambrosio>git add multimedia/
+
+C:\SEO D'Ambrosio>git add scss/
+
+C:\SEO D'Ambrosio>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   contacto.html
+        new file:   css/bootstrap-grid.css
+        new file:   css/bootstrap-grid.css.map
+        new file:   css/bootstrap-grid.min.css
+        new file:   css/bootstrap-grid.min.css.map
+        new file:   css/bootstrap-grid.rtl.css
+        new file:   css/bootstrap-grid.rtl.css.map
+        new file:   css/bootstrap-grid.rtl.min.css
+        new file:   css/bootstrap-grid.rtl.min.css.map
+        new file:   css/bootstrap-reboot.css
+        new file:   css/bootstrap-reboot.css.map
+        new file:   css/bootstrap-reboot.min.css
+        new file:   css/bootstrap-reboot.min.css.map
+        new file:   css/bootstrap-reboot.rtl.css
+        new file:   css/bootstrap-reboot.rtl.css.map
+        new file:   css/bootstrap-reboot.rtl.min.css
+        new file:   css/bootstrap-reboot.rtl.min.css.map
+        new file:   css/bootstrap-utilities.css
+        new file:   css/bootstrap-utilities.css.map
+        new file:   css/bootstrap-utilities.min.css
+        new file:   css/bootstrap-utilities.min.css.map
+        new file:   css/bootstrap-utilities.rtl.css
+        new file:   css/bootstrap-utilities.rtl.css.map
+        new file:   css/bootstrap-utilities.rtl.min.css
+        new file:   css/bootstrap-utilities.rtl.min.css.map
+        new file:   css/bootstrap.css
+        new file:   css/bootstrap.css.map
+        new file:   css/bootstrap.min.css
+        new file:   css/bootstrap.min.css.map
+        new file:   css/bootstrap.rtl.css
+        new file:   css/bootstrap.rtl.css.map
+        new file:   css/bootstrap.rtl.min.css
+        new file:   css/bootstrap.rtl.min.css.map
+        new file:   css/estilo.css
+        new file:   css/gradiente.css
+        new file:   fotos/armaconsangre.png
+        new file:   fotos/crimensangre.png
+        new file:   fotos/escenadelcrimen.png
+        new file:   fotos/escenanocruzar.png
+        new file:   fotos/favicon.png
+        new file:   fotos/fondo.png
+        new file:   fotos/logoamarillo.png
+        new file:   fotos/logocrimenessinresolver.png
+        new file:   fotos/misterioenelhospicio.jpeg
+        new file:   fotos/resolviendouncaso.png
+        modified:   git.html
+        new file:   js/bootstrap.bundle.js
+        new file:   js/bootstrap.bundle.js.map
+        new file:   js/bootstrap.bundle.min.js
+        new file:   js/bootstrap.bundle.min.js.map
+        new file:   js/bootstrap.esm.js
+        new file:   js/bootstrap.esm.js.map
+        new file:   js/bootstrap.esm.min.js
+        new file:   js/bootstrap.esm.min.js.map
+        new file:   js/bootstrap.js
+        new file:   js/bootstrap.js.map
+        new file:   js/bootstrap.min.js
+        new file:   js/bootstrap.min.js.map
+        new file:   login.html
+        new file:   multimedia/audio.mp3
+        new file:   multimedia/imagen1.jpeg
+        new file:   multimedia/mivideo.mp4
+        new file:   multimedia/perfect.mp3
+        new file:   register.html
+        new file:   scss/estilo.scss
+        new file:   single.html
+        new file:   tienda.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        node-v14.17.3-x64.msi
+        node_modules/
+        package-lock.json
+        package.json
+
+
+C:\SEO D'Ambrosio>git add contacto.html
+
+C:\SEO D'Ambrosio>git add git.html
+
+C:\SEO D'Ambrosio>git commit -m "incorpore login registro tienda contacto"
+[master 20c672d] incorpore login registro tienda contacto
+ 67 files changed, 60413 insertions(+), 66 deletions(-)
+ create mode 100644 contacto.html
+ create mode 100644 css/bootstrap-grid.css
+ create mode 100644 css/bootstrap-grid.css.map
+ create mode 100644 css/bootstrap-grid.min.css
+ create mode 100644 css/bootstrap-grid.min.css.map
+ create mode 100644 css/bootstrap-grid.rtl.css
+ create mode 100644 css/bootstrap-grid.rtl.css.map
+ create mode 100644 css/bootstrap-grid.rtl.min.css
+ create mode 100644 css/bootstrap-grid.rtl.min.css.map
+ create mode 100644 css/bootstrap-reboot.css
+ create mode 100644 css/bootstrap-reboot.css.map
+ create mode 100644 css/bootstrap-reboot.min.css
+ create mode 100644 css/bootstrap-reboot.min.css.map
+ create mode 100644 css/bootstrap-reboot.rtl.css
+ create mode 100644 css/bootstrap-reboot.rtl.css.map
+ create mode 100644 css/bootstrap-reboot.rtl.min.css
+ create mode 100644 css/bootstrap-reboot.rtl.min.css.map
+ create mode 100644 css/bootstrap-utilities.css
+ create mode 100644 css/bootstrap-utilities.css.map
+ create mode 100644 css/bootstrap-utilities.min.css
+ create mode 100644 css/bootstrap-utilities.min.css.map
+ create mode 100644 css/bootstrap-utilities.rtl.css
+ create mode 100644 css/bootstrap-utilities.rtl.css.map
+ create mode 100644 css/bootstrap-utilities.rtl.min.css
+ create mode 100644 css/bootstrap-utilities.rtl.min.css.map
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.css.map
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/bootstrap.min.css.map
+ create mode 100644 css/bootstrap.rtl.css
+ create mode 100644 css/bootstrap.rtl.css.map
+ create mode 100644 css/bootstrap.rtl.min.css
+ create mode 100644 css/bootstrap.rtl.min.css.map
+ create mode 100644 css/estilo.css
+ create mode 100644 css/gradiente.css
+ create mode 100644 fotos/armaconsangre.png
+ create mode 100644 fotos/crimensangre.png
+ create mode 100644 fotos/escenadelcrimen.png
+ create mode 100644 fotos/escenanocruzar.png
+ create mode 100644 fotos/favicon.png
+ create mode 100644 fotos/fondo.png
+ create mode 100644 fotos/logoamarillo.png
+ create mode 100644 fotos/logocrimenessinresolver.png
+ create mode 100644 fotos/misterioenelhospicio.jpeg
+ create mode 100644 fotos/resolviendouncaso.png
+ create mode 100644 js/bootstrap.bundle.js
+ create mode 100644 js/bootstrap.bundle.js.map
+ create mode 100644 js/bootstrap.bundle.min.js
+ create mode 100644 js/bootstrap.bundle.min.js.map
+ create mode 100644 js/bootstrap.esm.js
+ create mode 100644 js/bootstrap.esm.js.map
+ create mode 100644 js/bootstrap.esm.min.js
+ create mode 100644 js/bootstrap.esm.min.js.map
+ create mode 100644 js/bootstrap.js
+ create mode 100644 js/bootstrap.js.map
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/bootstrap.min.js.map
+ create mode 100644 login.html
+ create mode 100644 multimedia/audio.mp3
+ create mode 100644 multimedia/imagen1.jpeg
+ create mode 100644 multimedia/mivideo.mp4
+ create mode 100644 multimedia/perfect.mp3
+ create mode 100644 register.html
+ create mode 100644 scss/estilo.scss
+ create mode 100644 single.html
+ create mode 100644 tienda.html
+
+C:\SEO D'Ambrosio>git log
+commit 20c672dc3f088d5fb05c7ea90bd8d2bdf6e5dd39 (HEAD -> master)
+Author: Antonela <antonela.dambrosio@gmail.com>
+Date:   Tue Jul 27 22:44:22 2021 -0300
+
+    incorpore login registro tienda contacto
+
+commit 097a2d06b126bfbc3887d27da1823fdfa4a4512a
+Author: Antonela <antonela.dambrosio@gmail.com>
+Date:   Tue Jul 27 19:02:09 2021 -0300
+
+    subiendo html
+
+C:\SEO D'Ambrosio>git log --oneline
+20c672d (HEAD -> master) incorpore login registro tienda contacto
+097a2d0 subiendo html
+
+C:\SEO D'Ambrosio>git branch mi-rama
+
+C:\SEO D'Ambrosio>git branch anto
+
+C:\SEO D'Ambrosio>git branch
+  anto
+* master
+  mi-rama
+
+C:\SEO D'Ambrosio>git checkout anto
+Switched to branch 'anto'
+
+C:\SEO D'Ambrosio>git branch
+* anto
+  master
+  mi-rama
+
+C:\SEO D'Ambrosio>git log --oneline
+20c672d (HEAD -> anto, mi-rama, master) incorpore login registro tienda contacto
+097a2d0 subiendo html
+
+C:\SEO D'Ambrosio>git checkout 097a2d0
+Note: switching to '097a2d0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 097a2d0 subiendo html
+
+C:\SEO D'Ambrosio>git log --oneline
+097a2d0 (HEAD) subiendo html
+
+C:\SEO D'Ambrosio>git branch
+* (HEAD detached at 097a2d0)
+  anto
+  master
+  mi-rama
+
+C:\SEO D'Ambrosio>git checkout master
+Previous HEAD position was 097a2d0 subiendo html
+Switched to branch 'master'
+
+C:\SEO D'Ambrosio>git log --online
+fatal: unrecognized argument: --online
+
+C:\SEO D'Ambrosio>git log --oneline
+20c672d (HEAD -> master, mi-rama, anto) incorpore login registro tienda contacto
+097a2d0 subiendo html
+
+C:\SEO D'Ambrosio>git branch
+  anto
+* master
+  mi-rama
+
+C:\SEO D'Ambrosio>git checkout anto
+Switched to branch 'anto'
+M       css/estilo.css
+
+C:\SEO D'Ambrosio>git status
+On branch anto
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   css/estilo.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        node-v14.17.3-x64.msi
+        node_modules/
+        package-lock.json
+        package.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\SEO D'Ambrosio>git checkout anto
+Already on 'anto'
+M       css/estilo.css
+
+C:\SEO D'Ambrosio>git branch
+* anto
+  master
+  mi-rama
+
+C:\SEO D'Ambrosio>git merge mi-rama
+Already up to date.
+
+C:\SEO D'Ambrosio>git branch
+* anto
+  master
+  mi-rama
+
+C:\SEO D'Ambrosio>git add estilo.css
+fatal: pathspec 'estilo.css' did not match any files
+
+C:\SEO D'Ambrosio>cd.. /css
+El sistema no puede encontrar la ruta especificada.
+
+C:\SEO D'Ambrosio>cd C:\SEO D'Ambrosio\css
+
+C:\SEO D'Ambrosio\css>git add estilo.css
+warning: LF will be replaced by CRLF in css/estilo.css.
+The file will have its original line endings in your working directory
+
+C:\SEO D'Ambrosio\css>cd..
+
+C:\SEO D'Ambrosio>git add css/estilo.css
+
+C:\SEO D'Ambrosio>C:\SEO D'Ambrosio\css
